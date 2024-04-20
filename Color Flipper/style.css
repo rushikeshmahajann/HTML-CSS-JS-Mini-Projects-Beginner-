@@ -1,0 +1,46 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 50px 40px 10px 10px;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 5px;
+  
+  
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 50px 20px 20px 20px;
+}
+
+.container .btn{ 
+    font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease ;
+  margin: 30px 20px 20px 20px;
+}
+.container {
+    text-align: center;
+    
+}
