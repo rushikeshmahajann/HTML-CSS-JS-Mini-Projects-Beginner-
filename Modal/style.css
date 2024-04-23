@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;   
+}
+body{
+    background-image: url(constellations-2609647_1920.jpg);
+}  
+
+.hero {
+    background-image: url(constellations-2609647_1920.jpg) center/cover no-repeat;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.banner {
+    background: whitesmoke;
+    text-align: center; 
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 100px;    
+}
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(97, 95, 95, 0.5);
+    display: grid;
+    place-items: center;
+    transition: all 0.3s linear;
+    visibility: hidden;
+    z-index: -10;
+}
+.open-modal {
+    visibility:  visible;
+    z-index: 10;
+}
+
+.modal-container{
+    background: white;
+    border-radius: 10px;
+    width: 90vw;
+    height: 30vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0rem;
+    right: 1rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s linear;;
+}
+button {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;  
+}
+button:hover{
+    color: white;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.banner:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
