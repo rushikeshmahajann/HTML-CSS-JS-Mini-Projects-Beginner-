@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    
+}
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 20px;
+    
+}
+h2 {
+    font-size: 3rem;
+}
+.btn-container {
+    text-align: center;
+}
+.filter-btn{
+    margin: 10px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+.filter-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.photo {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px ;
+}
+.section-center {
+    width: 90%;
+    
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3rem 2rem;
+    justify-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item {
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+    padding: 10px;
+}
+.menu-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
