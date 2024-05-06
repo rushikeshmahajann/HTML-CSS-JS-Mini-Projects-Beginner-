@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    background: linear-gradient(75deg, rgb(193, 251, 255), rgb(220, 255, 249));
+}
+
+.title{
+    text-align: center;
+}
+h2{
+    font-size: 4rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title p {
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
+h4 {
+    font-size: 40px;
+}
+.content p {
+    font-size: 30px;
+}
+.btn-active{
+    background: black;
+    color: whitesmoke;
+}
+
+    h2{
+        font-size: 3rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+        height: auto;
+        width: 550px;
+        
+    }
+    .about-center{
+        display: grid;
+        justify-items: center;
+        padding: 10px;
+        width: 60%;
+        place-items: center;
+        margin: 0 auto;
+        grid-template-rows: auto 1fr;
+        gap: 20px;
+    }
+    .content{
+        display: none;
+    }
+    .btn-container{
+        display: flex;
+        border-radius: 10px;
+        width: 100%;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .btn-container button{
+        border: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .btn-container button:hover{
+        cursor: pointer;
+        color: white;
+        background-color: rgb(129, 129, 129);
+    }
+    .active{
+        display: block;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 20px;
+    }
+    .btn-active{
+        background: black;
+        color: whitesmoke;
+    }
