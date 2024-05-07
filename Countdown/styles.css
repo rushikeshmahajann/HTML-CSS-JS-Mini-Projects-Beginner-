@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section-center{
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 3rem;
+    margin: 0 auto;
+    background: linear-gradient(135deg, rgb(249, 233, 251), rgb(246, 173, 247));
+    padding: 30px;
+    border-radius: 6px;
+}
+.gift-info h3{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.deadline {
+    display: flex;
+    justify-content: space-evenly;  
+    margin-top: 20px;
+}
+.deadline-format{
+    border-radius: 3px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(130, 57, 125);
+}
