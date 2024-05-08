@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(1, 51, 54);
+}
+
+.section-center{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    padding: 100px;
+    border-radius: 5px;
+    background: linear-gradient(70deg, rgb(200, 253, 255),rgb(175, 255, 238) );
+}
+h3{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+form{
+    padding: 30px;
+}
+label{
+    font-size: 1.5rem;
+}
+input, button {
+    padding: 10px;
+}
+input{
+    border-radius: 10px;
+}
+button{
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: rgb(37, 36, 36);
+    -webkit-box-shadow:0px 0px 35px 0px rgba(34,27,247,0.83);
+-moz-box-shadow: 0px 0px 35px 0px rgba(34,27,247,0.83);
+box-shadow: 0px 0px 35px 0px rgba(34,27,247,0.83);
+}
+.result {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
