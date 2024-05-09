@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: azure;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.section-center{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: linear-gradient(45deg, rgb(255, 214, 221), rgb(191, 229, 255));
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+h3{
+    text-align: center;
+    font-size: 3rem;
+    padding: 40px;
+}
+.alert-danger{
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(255, 99, 71, 0.4);
+    width: 40%;
+    margin: 0 auto;
+    color: rgb(129, 2, 2);
+    margin-bottom: 20px;
+}
+.alert-success{
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(71, 255, 148, 0.4);
+    width: 40%;
+    margin: 0 auto;
+    color: rgb(6, 129, 2);
+    margin-bottom: 20px;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+    padding: 20px;  
+}
+
+.form-control input,.form-control button{
+    padding: 10px;
+    border: none;
+}
+.form-control input{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.form-control input:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+.form-control button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.form-control button:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background: rgb(192, 223, 253);
+    cursor: pointer;
+    
+}
+.grocery-container {  
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    display: none;
+}
+.show-container {
+    display: block;
+}
+.grocery-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.grocery-item button{
+    border: none;
+    background: none;
+    padding: 5px;
+    font-size: 1rem;
+}
+.btn-container button i:hover {
+    cursor: pointer;
+    color: rgb(182, 20, 128);
+}
+.clear-btn {
+    margin-left: 42%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.clear-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+    background-color: rgb(48, 47, 47);
+    cursor: pointer;
+}
